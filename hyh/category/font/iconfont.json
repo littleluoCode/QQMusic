@@ -1,0 +1,16 @@
+{
+  "id": "2935007",
+  "name": "箭头",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12515511",
+      "name": "下箭头",
+      "font_class": "arrow-down",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

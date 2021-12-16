@@ -1,0 +1,37 @@
+{
+  "id": "2923147",
+  "name": "cao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "217197",
+      "name": "mac",
+      "font_class": "mac",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "2325951",
+      "name": "win",
+      "font_class": "win",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "2325971",
+      "name": "安卓",
+      "font_class": "anzhuo",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "21096748",
+      "name": "linux",
+      "font_class": "linux",
+      "unicode": "eccc",
+      "unicode_decimal": 60620
+    }
+  ]
+}

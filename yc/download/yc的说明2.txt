@@ -1,0 +1,2 @@
+付费音乐包&产品介绍页部分的CSS已与MV部分融合，在MV部分的yccss.css文件上增写而来。
+可以直接取代MV页的yccss，三个网页共用一个CSS文件与CSS/ycpics文件夹素材包。

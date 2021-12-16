@@ -1,0 +1,345 @@
+/* 清除页面边距 */
+/* 初始化页面 */
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    outline: none;
+}
+
+body {
+    font: 12px"微软雅黑", "Arial Narrow", HELVETICA;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+header {
+    width: 100%;
+    height: 142px;
+    background: white;
+}
+
+header .container {
+    height: 142px;
+    background: white;
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+/* 头部logo */
+.top-logo {
+    line-height: 90px;
+    float: left;
+}
+
+.top-logo img {
+    height: 46px;
+    width: 170px;
+}
+
+/* 头部导航 */
+.top-nav {
+    float: left;
+    /* border: 1px solid red; */
+    height: 90px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.top-nav li {
+    float: left;
+    font-size: 18px;
+    line-height: 90px;
+    padding: 0px 20px;
+}
+
+.top-nav li a:hover {
+    color: rgb(49, 194, 124);
+}
+
+.container>.top-nav>.top-nav1 {
+    background: rgb(49, 194, 124);
+    color: white;
+}
+
+/* 导航音乐搜索框 */
+.top-right {
+    float: left;
+    width: 510px;
+    height: 90px;
+    margin-left: 15px;
+    /* border: 1px solid red; */
+}
+
+#top-search {
+    width: 225px;
+    height: 38px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 5px;
+    margin-top: 26px;
+    overflow: hidden;
+    padding-left: 10px;
+    float: left;
+}
+
+#top-search-1 {
+    width: 200px;
+    height: 36px;
+    border: none;
+    font-size: 15px;
+    float: left;
+}
+
+.top-search-2 {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+
+#top-search .top-search-2:hover {
+    color: rgb(49, 194, 124);
+}
+
+/* 登录 注册充值 */
+.sign-top {
+    width: 60px;
+    height: 90px;
+    float: left;
+    /* border: 1px solid red; */
+    line-height: 90px;
+    font-size: 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign:hover {
+    color: rgb(49, 194, 124);
+}
+
+/* 开通VIP/充值 */
+.sign-1 {
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    background: rgb(49, 194, 124);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    margin-top: 25px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sign-2 {
+    margin-left: 10px;
+    height: 38px;
+    width: 80px;
+    text-align: center;
+    background: white;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    float: left;
+    margin-top: 25px;
+    line-height: 38px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign-1:hover {
+    background: rgb(111, 219, 167);
+}
+
+/* 第二层导航栏 */
+.top-nav-2 {
+    width: 1200px;
+    height: 51px;
+    border-top: 1px solid gainsboro;
+    overflow: hidden;
+
+}
+
+.top-nav-2 ul {
+    width: 800px;
+    height: 52px;
+    /* background: coral; */
+
+    margin-left: 200px;
+    line-height: 52px;
+}
+
+.top-nav-2 li {
+    float: left;
+    font-size: 15px;
+    padding-left: 45px;
+    cursor: pointer;
+
+}
+
+.top-nav-2 a:hover {
+    color: #24d593;
+}
+
+
+/* 内容主体 */
+article {
+    background: #fafafa;
+    overflow: hidden;
+}
+
+/* 内容头部轮播图 */
+.article-top {
+    width: 1200px;
+    height: 460px;
+    /* background: royalblue; */
+    margin: 0 auto;
+}
+
+.img-top {
+    /* background: wheat; */
+    position: relative;
+    height: 360px;
+}
+
+.img-top-1 {
+    width: 630px;
+    height: 250px;
+    background-image: url(../images/轮播图3.jpg);
+    background-size: 630px 250px;
+    opacity: .9;
+    position: absolute;
+    top: 80px;
+    left: 0;
+
+}
+
+.img-top-2 {
+    width: 630px;
+    height: 250px;
+    background-image: url(../images/轮播图2.jpg);
+    background-size: 630px 250px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    opacity: .9;
+}
+
+.img-top-3 {
+    width: 751px;
+    height: 300.4px;
+    background-image: url(../images/轮播图1.gif);
+    background-size: 751px 300.4px;
+    position: absolute;
+    top: 55px;
+    left: 224.5px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.img-top-3:hover {
+    transform: scale(1.05);
+}
+
+.gdt-top {
+    width: 1200px;
+    height: 100px;
+    /* background: turquoise; */
+    position: relative;
+}
+
+.gdt-top div {
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 8px;
+    float: left;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+
+.gdt-top div:hover {
+    background: rgb(97, 97, 97);
+}
+
+/* 所有主体内容 */
+.contents {
+    width: 1200px;
+    margin: 0 auto;
+    /* background: coral; */
+    padding-bottom: 20px;
+    /* border: 1px solid royalblue; */
+}
+
+/* 1F */
+.contents-1F {
+    width: 1200px;
+    height: 425px;
+    /* background: cornflowerblue; */
+}
+
+.contents-1F div {
+    float: left;
+    width: 224px;
+    height: 311px;
+    /* background: cornsilk; */
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.contents-1F div img {
+    width: 224px;
+    height: 224px;
+    transition: all linear .2s;
+    cursor: pointer;
+}
+
+.contents-1F div:hover img {
+    transform: scale(0.95);
+}
+
+.contents-1F div p {
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.contents-1F div p span {
+    background: white;
+    margin-left: 90px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    color: black;
+}
+
+.contents-1F div p span:hover {
+    background: ghostwhite;
+}

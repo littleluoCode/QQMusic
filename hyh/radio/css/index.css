@@ -1,0 +1,125 @@
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 100%;
+    background: #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+/* 左侧菜单栏 */
+/* main .FM {
+    width: 297px;
+    height: 544px;
+    position: fixed;
+    background: url(../images/fixd.png);
+    background-size: contain;
+    z-index: -1;
+    top: 150px;
+    left: 0;
+} */
+
+main h2 {
+    margin-left: 280px;
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 60px;
+    position: relative;
+}
+
+main h2::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 930px;
+    overflow: hidden;
+    left: 50px;
+    top: 13px;
+    background-color: #dddddd;
+}
+
+main .iteam {
+    width: 1165px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    /* text-align: center; */
+    margin-left: 260px;
+    margin-top: 25px;
+    line-height: 30px;
+    text-align: left;
+    /* text-align: center; */
+}
+
+main .iteam ul {
+    margin-top: 20px;
+}
+
+main .iteam li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+main .iteam img {
+    width: 224px;
+    height: 224px;
+    margin-right: 10px;
+    transition: all 1s;
+    /* position: relative; */
+    z-index: -9998;
+}
+
+main .iteam ul:hover img {
+    background-image: url(../images/play.png);
+    opacity: 1;
+}
+
+main .son {
+    width: 49px;
+    height: 49px;
+    margin: 93px 98px;
+    background-image: url(../images/play.png);
+    background-size: contain;
+    background-size: 49px 49px;
+    border-radius: 50px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+main .father:hover .son {
+    display: block;
+    cursor: pointer;
+    transform: scale(1.1) translateZ(0);
+    transform: all 1s;
+}
+
+
+
+
+main .iteam img:hover {
+    /* transform: scale(1.2); */
+    opacity: .9;
+    -webkit-transform: scale(1) translateZ(0);
+    -webkit-transition-property: opacity, -webkit-transform;
+    -webkit-transition-duration: .5s;
+    transform: scale(1.1) translateZ(0);
+    transition-property: opacity, transform;
+    transition-duration: .5s;
+    cursor: pointer;
+    /* background-position: center center; */
+}
+
+main .iteam ul {
+    margin-top: 10px;
+}

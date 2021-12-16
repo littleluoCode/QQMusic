@@ -1,0 +1,174 @@
+
+body {
+    background: #fafafa;
+
+}
+main a {
+    text-decoration: none;
+    color: black;
+}
+main h3 {
+    color: #999999;
+}
+main {
+    width: 100%;
+    height: 1850px;
+    background: #fafafa;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* 顶部歌单 */
+main .hyh_top {
+    /* width: 1500px; */
+    height: 160px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    align-items: flex-end;
+    justify-content: space-around;
+    align-content:space-around;
+    position: relative;
+
+}
+main .hyh_top .hotone {
+    margin: 0;
+}
+main .hotone,
+main .hottwo,
+main .hotthr,
+main .hotfour,
+main .hotfive {
+    width: 238px;
+    height: 115px;
+    /* float: left; */
+    border-right:1px solid #eeeef0;
+    margin-left: 20px;
+}
+
+main .hyh_top h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+main .hyh_top ul a {
+    display: inline-block;
+    width: 69px;
+    height: 26px;
+}
+main .hyh_top ul a:hover {
+    color: #31c27c;
+}
+
+main ul a {
+    /* margin-right: 20px; */
+    cursor: pointer;
+    font-size: 14px;
+}
+main h2 {
+    /* margin-bottom: -157px;
+    margin-top: 80px;
+    margin-left: 123px; */
+    font-size: 26px;
+    margin-top: 50px;
+}
+/* 中间mv图片列表 */
+main .photo img {
+    width: 224px;
+    height: 224px;
+    transition: all 1s;
+    
+}
+main .photo ul:hover img {
+   background-image: url(../images/play.png);
+   opacity: 1;
+   
+}
+main .son {
+    width: 49px;
+    height: 49px;
+    margin: -139px 88px;
+    background-image: url(../images/play.png);
+    background-size: contain;
+    background-size: 49px 49px;
+    border-radius: 50px;
+    position: absolute;
+    display: none;
+    
+}
+main .father:hover .son {
+    display: block;
+    cursor: pointer;
+    transform: scale(1.1) translateZ(0);
+    transform: all 1s;
+    
+
+}
+
+
+main .photo img:hover {
+    /* transform: scale(1.2); */
+    opacity: .9;
+    -webkit-transform: scale(1) translateZ(0);
+    -webkit-transition-property: opacity,-webkit-transform;
+    -webkit-transition-duration: .5s;
+    transform: scale(1.1) translateZ(0);
+    transition-property: opacity,transform;
+    transition-duration: .5s;
+    cursor: pointer;
+    /* background-position: center center; */
+}
+main .photo {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+    align-content:space-around; */
+    justify-content: space-around;
+    /* margin: 110px; */
+    
+}
+main .photo > ul img {
+    margin: 20px 0;
+}
+main .photo > ul {
+    margin-bottom: 50px;
+}
+main .photo >ul a:hover {
+    color: #31c27c;
+}
+/* 末尾登录框 */
+main .foot{
+    /* width: 1300px; */
+    height: 100px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+}
+main .push{
+    display: block;
+    margin: 20px ;
+    width: 175px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 41px;
+    background-color: #31c27c;
+    border: 0;
+    cursor: pointer;
+}
+main .push:hover {
+    background: #2caf6f;
+}
+main .foot  p {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+
+

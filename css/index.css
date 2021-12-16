@@ -1,0 +1,393 @@
+main {
+  width: 100%;
+}
+
+main .hot-songs {
+  height: 540px;
+  position: relative;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+
+main .hot-songs .songs_content {
+  height: 500px;
+  position: relative;
+}
+
+main .hot-songs .title {
+  width: 100%;
+  height: 100px;
+  background: #f3f3f3;
+}
+
+main .hot-songs .title h3 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+}
+
+main .hot-songs .list_item {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: relative;
+}
+
+main .hot-songs .list_item > ul {
+  margin-left: 260px;
+}
+
+main .hot-songs .list_item > ul > li > a {
+  float: left;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+main .hot-songs .list_item > ul > li > a:hover {
+  color: #31c27c;
+}
+
+main .hot-songs .list_item .gdtj #gdtj .list_item_img {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: none;
+  z-index: 2;
+  text-align: left;
+}
+
+main .hot-songs .list_item_img {
+  width: 100%;
+  height: 265px;
+  margin-top: 10px;
+}
+
+main .hot-songs .list_item_img > ul > li {
+  width: 220px;
+  height: 265px;
+  float: left;
+  padding-right: 25px;
+}
+
+main .hot-songs .list_item_img > ul > li > h3:hover a {
+  color: #31c27c;
+}
+
+main .hot-songs .list_item_img > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+main .hot-songs .list_item_img > ul > li > a:hover > img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+main .hot-songs .list_item_img > ul > li > a:hover > span {
+  opacity: 1;
+}
+
+main .hot-songs .list_item_img > ul > li > a img {
+  width: 100%;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+main .hot-songs .list_item_img > ul > li > a span {
+  display: inline-block;
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  top: -5px;
+  left: 0;
+  text-align: center;
+  line-height: 220px;
+  opacity: 0;
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+}
+
+main .hot-songs .list_item_img > ul > li > a span i {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
+main .hot-songs .list_item_img > ul > li h3 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+main .hot-songs .list_item_img > ul > li span {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999999;
+}
+
+main .hot-songs .circle {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 75px;
+  left: 0;
+}
+
+main .hot-songs .circle ul {
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+main .hot-songs .circle ul li a {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e1e1e1;
+  margin-right: 20px;
+}
+
+main .hot-songs:hover .left_btn {
+  width: 80px;
+}
+
+main .hot-songs:hover .left_btn i {
+  font-size: 46px;
+}
+
+main .hot-songs:hover .right_btn {
+  width: 80px;
+}
+
+main .hot-songs:hover .right_btn i {
+  font-size: 46px;
+}
+
+main .hot-songs .left_btn,
+main .hot-songs .right_btn {
+  width: 0;
+  height: 108px;
+  background: #ececec;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+main .hot-songs .left_btn:hover,
+main .hot-songs .right_btn:hover {
+  background: #e0e0e0;
+}
+
+main .hot-songs .left_btn > i,
+main .hot-songs .right_btn > i {
+  font-size: 0;
+  color: #393939;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+main .hot-songs .left_btn {
+  top: 42%;
+  left: 0;
+}
+
+main .hot-songs .right_btn {
+  top: 42%;
+  right: 20px;
+}
+
+main .xgsf {
+  overflow: hidden;
+  height: 570px;
+}
+
+main .xgsf .list_item > h3 > a {
+  float: left;
+  width: 123px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+main .xgsf .list_item > h3 > a:hover {
+  background: #ededed;
+  color: #000;
+}
+
+main .xgsf .list_item > h3 > a i {
+  margin-right: 5px;
+}
+
+main .xgsf .list_item > ul {
+  margin-left: 330px;
+}
+
+main .xgsf .list_item > ul > li > a {
+  width: 80px;
+}
+
+main .xgsf .list_item_xgsf {
+  margin-top: 30px;
+  height: 330px;
+}
+
+main .xgsf .list_item_xgsf > ul > li {
+  float: left;
+  width: 386px;
+  height: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img {
+  position: relative;
+  z-index: 1;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img a {
+  float: left;
+  width: 86px;
+  height: 86px;
+  overflow: hidden;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img a img {
+  width: 100%;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img:hover .songs_img_hide {
+  opacity: 1;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img .songs_img_hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 86px;
+  height: 86px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 86px;
+  opacity: 0;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  cursor: pointer;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_img .songs_img_hide > i {
+  font-size: 40px;
+  color: #fff;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info {
+  float: left;
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > div {
+  float: left;
+  margin-left: 20px;
+  margin-top: 24px;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > div > h3 > a:hover {
+  color: #58c587;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > div > h4 {
+  margin-top: 5px;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > div > h4 > a {
+  color: #999;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > div > h4 > a:hover {
+  color: #58c587;
+}
+
+main .xgsf .list_item_xgsf > ul > li .songs_info > span {
+  float: right;
+  line-height: 100px;
+  font-size: 14px;
+  color: #999;
+}
+
+main .xgsf .circle {
+  margin-top: 20px;
+}
+
+.jctj {
+  height: 430px !important;
+}
+
+.jctj .list_item_jctj {
+  height: 240px;
+}
+
+.jctj .list_item_jctj ul > li > a {
+  float: left;
+  width: 590px;
+  height: 240px;
+  margin-right: 20px;
+}
+
+.jctj .list_item_jctj ul > li > a img {
+  width: 100%;
+}
+
+main .xdsf {
+  overflow: hidden;
+  height: 830px;
+}
+
+main .xdsf .hot-songs-content {
+  overflow: hidden;
+}
+
+main .xdsf .list_item > ul {
+  margin-left: 385px;
+}
+
+main .xdsf .list_item > ul > li > a {
+  width: 60px;
+}
+
+main .xdsf .list_item_xdsf {
+  width: 100%;
+  height: 600px;
+}
+
+main .xdsf .list_item_xdsf > ul > li {
+  margin-top: 20px;
+}
+
+main .xdsf .circle {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=index.css.map */

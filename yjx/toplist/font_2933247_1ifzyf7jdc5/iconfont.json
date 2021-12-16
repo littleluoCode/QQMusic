@@ -1,0 +1,37 @@
+{
+  "id": "2933247",
+  "name": "333",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9809028",
+      "name": "增长",
+      "font_class": "zengchang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6255865",
+      "name": "MV",
+      "font_class": "MV",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "23583460",
+      "name": "MV",
+      "font_class": "MV1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "25027102",
+      "name": "MV",
+      "font_class": "MV2",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

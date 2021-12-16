@@ -1,0 +1,44 @@
+{
+  "id": "2930546",
+  "name": "22",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4880023",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6303533",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "7594048",
+      "name": "24gl-play",
+      "font_class": "24gl-play",
+      "unicode": "ea6d",
+      "unicode_decimal": 60013
+    },
+    {
+      "icon_id": "11833563",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "23191199",
+      "name": "批量操作",
+      "font_class": "piliangcaozuo",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

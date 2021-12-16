@@ -1,0 +1,58 @@
+{
+  "id": "2923829",
+  "name": "QQMusic",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17816846",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2076319",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e8a3",
+      "unicode_decimal": 59555
+    },
+    {
+      "icon_id": "2418274",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "2418284",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "6127265",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6762076",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "7594175",
+      "name": "24gf-playSquare",
+      "font_class": "24gf-playSquare",
+      "unicode": "ea88",
+      "unicode_decimal": 60040
+    }
+  ]
+}

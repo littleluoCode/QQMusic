@@ -1,0 +1,189 @@
+main {
+    width: 100%;
+    height: 4300px;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main .topbg {
+    width: 100%;
+    height: 376px;
+    background-image: url(../img/top-img.jpg);
+    overflow: hidden;
+    text-align: center;
+}
+
+main .head {
+    width: 100%;
+    font-size: 65px;
+    font-weight: 400;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+main .title {
+    width: 100%;
+    font-size: 29px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .push {
+    width: 174px;
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+main .push:hover {
+    border: 1px solid white;
+}
+
+main .all {
+    width: 1200px;
+    height: 172px;
+    background: white;
+    /* float: left; */
+    margin: 80px 190px;
+    font-size: 26px;
+    padding: 20px 59px 36px 40px;
+
+
+}
+
+main .all a {
+    /* float: left; */
+    display: inline-block;
+    width: 44px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 10px;
+    color: #341331;
+    font-weight: bold;
+
+}
+
+main .all .item {
+    width: 44px;
+    height: 26px;
+    background: #31c27c;
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    color: white;
+}
+
+
+
+main .photo {
+    /* float: left; */
+    width: 1300px;
+    height: 600px;
+    margin: 0 185px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+main .photo a {
+    margin-left: 10px;
+}
+
+main .mid:hover {
+    color: #31c27c;
+    /* color: white; */
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    /* overflow: hidden; */
+}
+
+.p-one,
+.p-two,
+.p-thr,
+.p-four,
+.p-fou,
+.p-five,
+.p-six,
+.p-sev,
+.p-eig,
+.p-nin {
+    margin: 10px 14px;
+    float: left;
+    padding: 30px;
+    /* color: black; */
+
+}
+
+main .photo div {
+    width: 160px;
+    height: 190px;
+    text-align: center;
+    background: #fbfbfd;
+}
+
+main .photo a {
+    color: black;
+    line-height: 35px;
+}
+
+main .foot a:hover {
+    color: #31c27c;
+}
+
+main .foot {
+    height: 2900px;
+}
+
+/* .singer a {
+   float: left;
+
+
+
+} */
+main .font {
+    position: relative;
+
+}
+
+main .singer {
+    width: 1320px;
+    position: absolute;
+    margin: 20px 50px;
+    top: 1450px;
+    left: 140px;
+
+}
+
+main .singer-one {
+    width: 244px;
+    height: 36px;
+    float: left;
+    margin-left: 10px;
+}
+
+main .first {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main .first a {
+    width: 30px;
+    font-size: 14px;
+    margin: 0;
+}

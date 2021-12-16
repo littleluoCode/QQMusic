@@ -1,0 +1,30 @@
+{
+  "id": "2935969",
+  "name": "4444",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1764100",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "9694566",
+      "name": "弹窗_添加到歌单_52",
+      "font_class": "danchuang_tianjiadaogedan_",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "15644316",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    }
+  ]
+}
